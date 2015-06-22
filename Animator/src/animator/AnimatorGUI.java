@@ -73,7 +73,7 @@ public class AnimatorGUI extends javax.swing.JFrame {
 
         jLabel8.setText("# of objects");
 
-        comboPathImages.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ZigZag", "Line" }));
+        comboPathImages.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ZigZag", "Vertical Line", "Horizontal Line" }));
 
         textImage.setText(AnimatorController.getDefaultFilename());
         textImage.addActionListener(new java.awt.event.ActionListener() {
@@ -114,7 +114,7 @@ public class AnimatorGUI extends javax.swing.JFrame {
             }
         });
 
-        comboPathShapes.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ZigZag", "Line" }));
+        comboPathShapes.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ZigZag", "Vertical Line", "Horizontal Line" }));
         comboPathShapes.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel9.setText("Shape");

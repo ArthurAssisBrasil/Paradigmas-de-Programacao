@@ -218,9 +218,10 @@
     <Component class="javax.swing.JComboBox" name="comboPathImages">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="2">
+          <StringArray count="3">
             <StringItem index="0" value="ZigZag"/>
-            <StringItem index="1" value="Line"/>
+            <StringItem index="1" value="Vertical Line"/>
+            <StringItem index="2" value="Horizontal Line"/>
           </StringArray>
         </Property>
       </Properties>
@@ -302,9 +303,10 @@
     <Component class="javax.swing.JComboBox" name="comboPathShapes">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="2">
+          <StringArray count="3">
             <StringItem index="0" value="ZigZag"/>
-            <StringItem index="1" value="Line"/>
+            <StringItem index="1" value="Vertical Line"/>
+            <StringItem index="2" value="Horizontal Line"/>
           </StringArray>
         </Property>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">

@@ -11,7 +11,8 @@ class Image {
     private String path;
     BufferedImage img;
     Point pos;
-    PathLine pathLine;
+    PathLineHoriz pathLineHoriz;
+    PathLineVert pathLineVert;
     PathZigZag pathZigZag;
 
     public Image(Point pos, BufferedImage img, String path, Dimension dim) {
@@ -19,12 +20,17 @@ class Image {
         this.img = img;
         this.path = path;
         this.dim = dim;
-        pathLine = new PathLine(pos,dim);
+        pathLineHoriz = new PathLineHoriz(pos,dim);
+        pathLineVert = new PathLineVert(pos,dim);
         pathZigZag = new PathZigZag(pos,dim);
     }
     
-    public PathLine getPathLine(){
-        return new PathLine(pos,dim);
+    public PathLineHoriz getPathLineHoriz(){
+        return new PathLineHoriz(pos,dim);
+    }
+    
+    public PathLineVert getPathLineVert(){
+        return new PathLineVert(pos,dim);
     }
     
     public PathZigZag getPathZigZag(){
@@ -41,8 +47,11 @@ class Image {
     
     // Move a imagem de acordo segundo a trajetoria selecionada.
     public void move() {
-       if(path == "Line"){
-           pathLine.move();
+       if(path == "Horizontal Line"){
+           pathLineHoriz.move();
+       }
+       if(path == "Vertical Line"){
+           pathLineVert.move();
        }
        if(path == "ZigZag"){
            pathZigZag.move();

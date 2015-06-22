@@ -13,6 +13,7 @@ class ObjectSet {
    private Rectangle[] rectangles;
    private Circle[] circles;
    private RoundedRectangle[] roundedRectangles;
+   private Star[] stars;
    int nShapes;
    String shapeType;
    Random x = new Random();
@@ -57,7 +58,7 @@ class ObjectSet {
     
     // Adiciona objetos da classe Circle ao ObjectSet.
     void addCircles(int n, Dimension dim, String path) {
-        System.out.printf("Test: adding %d rectangles\n", n);
+        System.out.printf("Test: adding %d circles\n", n);
         System.out.printf("Test: motion path %s\n", path);
         nShapes = n;
         circles = new Circle[n];
@@ -65,6 +66,18 @@ class ObjectSet {
         for (int i = 0; i < circles.length; i++) {
             Point p = new Point(x.nextInt(dim.width),x.nextInt(dim.height));
             circles[i] = new Circle(p, path, dim);
+        }
+    }
+    
+    void addStars(int n, Dimension dim, String path) {
+        System.out.printf("Test: adding %d stars\n", n);
+        System.out.printf("Test: motion path %s\n", path);
+        nShapes = n;
+        stars = new Star[n];
+        shapeType = "star";
+        for (int i = 0; i < stars.length; i++) {
+            Point p = new Point(x.nextInt(dim.width),x.nextInt(dim.height));
+            stars[i] = new Star(p, path, dim);
         }
     }
     
@@ -81,6 +94,8 @@ class ObjectSet {
                     circles[i].draw(g);
             else if(shapeType == "roundedRectangle")
                     roundedRectangles[i].draw(g);
+            else if(shapeType == "star")
+                    stars[i].draw(g);
         }
         System.out.println("drawAll");
     }
@@ -98,6 +113,8 @@ class ObjectSet {
                     circles[i].move();
             else if(shapeType == "roundedRectangle")
                     roundedRectangles[i].move();
+            else if(shapeType == "star")
+                    stars[i].move();
         }
         System.out.println("moveAll");
     }

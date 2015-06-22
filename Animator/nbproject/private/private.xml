@@ -4,16 +4,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/ObjectSet.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/PathZigZag.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/Rectangle.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/AnimationPanel.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/Circle.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/AnimatorController.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/AnimatorGUI.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/Image.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/RoundedRectangle.java</file>
-            <file>file:/C:/Users/Arthur/Desktop/Animator/src/animator/PathLine.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/PathZigZag.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/Rectangle.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/PathLineVert.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/Star.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/AnimationPanel.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/PathLineHoriz.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/Circle.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/AnimatorGUI.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/ObjectSet.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/AnimatorController.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/Image.java</file>
+            <file>file:/C:/Users/Arthur/Desktop/UFSM/3°%20semestre/Paradigmas%20de%20Programação/Trabalho%20em%20Java/Animator/src/animator/RoundedRectangle.java</file>
         </group>
     </open-files>
 </project-private>

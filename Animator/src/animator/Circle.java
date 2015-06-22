@@ -11,7 +11,8 @@ public class Circle {
     Dimension dim;
     private String path;
     Point pos;
-    PathLine pathLine;
+    PathLineHoriz pathLineHoriz;
+    PathLineVert pathLineVert;
     PathZigZag pathZigZag;
     int width;
     int height;
@@ -23,12 +24,17 @@ public class Circle {
        this.path = path;
        this.width = 25 + rand.nextInt(150);
        this.height = width;
-       pathLine = new PathLine(pos,dim);
+       pathLineHoriz = new PathLineHoriz(pos,dim);
+       pathLineVert = new PathLineVert(pos,dim);
        pathZigZag = new PathZigZag(pos, dim);
    } 
     
-    public PathLine getPathLine(){
-        return new PathLine(pos,dim);
+    public PathLineHoriz getPathLineHoriz(){
+        return new PathLineHoriz(pos,dim);
+    }
+    
+    public PathLineVert getPathLineVert(){
+        return new PathLineVert(pos,dim);
     }
     
     public PathZigZag getPathZigZag(){
@@ -45,8 +51,11 @@ public class Circle {
     }
     
     public void move() {
-       if(path == "Line"){
-           pathLine.move();
+       if(path == "Horizontal Line"){
+           pathLineHoriz.move();
+       }
+       if(path == "Vertical Line"){
+           pathLineVert.move();
        }
        if(path == "ZigZag"){
            pathZigZag.move();

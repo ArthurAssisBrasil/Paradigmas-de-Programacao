@@ -10,8 +10,9 @@ public class RoundedRectangle {
     Dimension dim;
     private String path;
     Point pos;
-    PathLine pathLine;
+    PathLineHoriz pathLineHoriz;
     PathZigZag pathZigZag;
+    PathLineVert pathLineVert;
     int width;
     int height;
     
@@ -23,12 +24,17 @@ public class RoundedRectangle {
        this.dim = dim;
        this.width = 25 + rand.nextInt(150);
        this.height = 25 + rand.nextInt(150);
-       pathLine = new PathLine(pos,dim);
+       pathLineHoriz = new PathLineHoriz(pos,dim);
+       pathLineVert = new PathLineVert(pos, dim);
        pathZigZag = new PathZigZag(pos, dim);
    }
     
-    public PathLine getPathLine(){
-        return new PathLine(pos,dim);
+    public PathLineHoriz getPathLineHoriz(){
+        return new PathLineHoriz(pos,dim);
+    }
+    
+    public PathLineVert getPathLineVert(){
+        return new PathLineVert(pos,dim);
     }
     
     public PathZigZag getPathZigZag(){
@@ -46,8 +52,11 @@ public class RoundedRectangle {
     }
     
     public void move() {
-       if(path == "Line"){
-           pathLine.move();
+       if(path == "Horizontal Line"){
+           pathLineHoriz.move();
+       }
+       if(path == "Vertical Line"){
+           pathLineVert.move();
        }
        if(path == "ZigZag"){
            pathZigZag.move();

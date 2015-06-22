@@ -28,7 +28,8 @@ enum Speed {
 enum ShapeType {
     RoundedRectangle,
     Rectangle,
-    Circle;
+    Circle,
+    Star;
 }
 
 public class AnimatorController {
@@ -127,7 +128,8 @@ public class AnimatorController {
         switch (shapeType) {
             case RoundedRectangle: objs.addRoundRectangles(nShapes, dim, pathShapes); break;
             case Rectangle: objs.addRectangles(nShapes, dim, pathShapes); break;
-            case Circle: objs.addCircles(nShapes, dim, pathShapes); break;            
+            case Circle: objs.addCircles(nShapes, dim, pathShapes); break; 
+            case Star: objs.addStars(nShapes, dim, pathShapes); break;
         }
         // Fim da configuracao dos objetos com formas geometricas
     }
