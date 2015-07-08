@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="38" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="quiManha" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="quiTarde" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="quiNoite" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="quaManha" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="quaTarde" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="quaNoite" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="sexManha" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="sexTarde" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sexNoite" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="sabManha" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="sabTarde" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sabNoite" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="terManha" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="terTarde" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="terNoite" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="segManha" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="segTarde" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="segNoite" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="domManha" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="domTarde" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="domNoite" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+              <Component id="pronto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="domNoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="domTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="domManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="segNoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="segTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="segManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="terNoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="terTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="terManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="quaNoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="quaTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="quaManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="quiNoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="quiTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="quiManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sexNoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sexTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sexManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sabManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sabTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sabNoite" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="pronto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Escolha dias e hor&#xe1;rios em que deseja que o evento ocorra"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="domNoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Noite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="domTarde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="domManha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manh&#xe3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="segManha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manh&#xe3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="segNoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Noite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="segTarde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="terManha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manh&#xe3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="terNoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Noite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="terTarde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="quaManha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manh&#xe3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="quaNoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Noite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="quaTarde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="quiManha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manh&#xe3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="quiNoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Noite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="quiTarde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sexManha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manh&#xe3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sexNoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Noite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sexTarde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sabManha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manh&#xe3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sabNoite">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Noite"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sabTarde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tarde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Domingo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Segunda"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ter&#xe7;a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quarta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quinta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sexta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#xe1;bado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="pronto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pronto"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="prontoActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
